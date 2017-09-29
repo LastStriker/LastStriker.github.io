@@ -1,33 +1,35 @@
-# Emping - Amp theme for jekyll
-An Amphtml theme for your jekyll blog, based on default Jekyll theme. Theme design inspired from the Jekyll [Kactus](https://github.com/nickbalestra/kactus) theme.
+# Researcher
 
-![screenshoot](https://github.com/rmsubekti/emping/raw/master/Screenshot.png)
+### [Demo Website](http://ankitsultana.com/researcher)
 
-### Feature
+A clean, single column, monospace resume template built for jekyll
 
-- [x] **Amp Page**
-- [x] **Google Analytics**
-- [x] **Pagination**
-- [x] **404 Error Page**
-- [x] **SEO** Gems: *[jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap), [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag), [jekyll-feed](https://github.com/jekyll/jekyll-feed)*
-- [x] **Share Button**
+### Installation
 
-### [View Demo](http://rmsubekti.github.io/emping)
+Simply fork the repository and edit away.
 
-### Use this theme
-Simply fork this repo, and rename to `your_github_username.github.io`.
+### Customization
 
-### Run this theme on your local machine
-To serve this jekyll theme make sure your computer meets the [following requirements](https://jekyllrb.com/docs/installation/#requirements), then run this command.
+* You can edit the `.md` (markdown) files as you see fit. You can also add some other markdown file, say `foo.md` in the root directory of the repository. It will then be accessible like so `{{ url of your website }}/foo`.
 
+* You can of course remove `contact.md` if you don't want it
+
+* To set the heading, edit the `title` variable in `_config.yml`
+
+* To edit the `links` mentioned on the navigation bar, edit the file `_data/nav.yml`
+
+* You can change the accent (color of hyperlinks) by editing the `accent` variable in `_sass/vars.scss`
+
+* You can setup google analytics, by setting `tracking_id` in `_config.yml`
+
+* To add a profile picture, make sure to give the image tag the class `profile-picture`. In other words,do it like so:
+
+```html
+<img class="profile-picture" src="sherlock.jpg">
 ```
-git clone git@github.com:rmsubekti/emping.git
-cd emping
-bundle install
-bundle exec jekyll s
-```
 
-You can change the site configuration in the [_config.yml](https://github.com/rmsubekti/emping/blob/master/_config.yml) file.
+**Note:** Customizing the accent color might cause merge conflicts if you later try to merge from `bk2dcradle/researcher` to fetch updates/patches etc. (applicable only if you have forked).
 
-License : [MIT](https://github.com/rmsubekti/emping/blob/master/LICENSE.md)
-Feel free to fork, change, modify and re-use it.
+### License
+
+[GNU GPL v3](https://github.com/bk2dcradle/researcher/blob/gh-pages/LICENSE)

@@ -91,13 +91,14 @@
       <section class="content-section">
         <header class="section-header">
           <h2>Languages</h2>
-        </header>????
+        </header>
 
         {% for project in site.data.projects %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-details" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-          <p class="resume-item-copy">{{ project.summary }}</p>
+          <h4 class="resume-item-details" itemprop="description">{{ project.first }} </h4>
+		  <h4 class="resume-item-details" itemprop="description">{{ project.second }} </h4>
 		</div>
         {% endfor %}
 

@@ -9,7 +9,7 @@ sass:
   style: compressed
 
 # Resume settings
-resume_avatar:                  "true"
+resume_avatar:                  "false"
 resume_name:                    "Qinglong Lu"
 resume_title:                   " "
 resume_contact_email:           "Qinglong_Lu@yeah.net"

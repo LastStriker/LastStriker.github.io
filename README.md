@@ -1,35 +1,30 @@
-# Researcher
+# Flexible-Jekyll is a simple and clean theme for Jekyll
 
-### [Demo Website](http://ankitsultana.com/researcher)
+![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
 
-A clean, single column, monospace resume template built for jekyll
+## Demo
 
-### Installation
+Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
 
-Simply fork the repository and edit away.
+The main page would look like this:
 
-### Customization
+![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
 
-* You can edit the `.md` (markdown) files as you see fit. You can also add some other markdown file, say `foo.md` in the root directory of the repository. It will then be accessible like so `{{ url of your website }}/foo`.
+The post page would look like this:
 
-* You can of course remove `contact.md` if you don't want it
+![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
 
-* To set the heading, edit the `title` variable in `_config.yml`
+## Features
 
-* To edit the `links` mentioned on the navigation bar, edit the file `_data/nav.yml`
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](http://fontawesome.io/)
+- [Disqus](https://disqus.com/)
+- [Analytics](https://analytics.google.com/analytics/web/)
 
-* You can change the accent (color of hyperlinks) by editing the `accent` variable in `_sass/vars.scss`
+## Installation:
 
-* You can setup google analytics, by setting `tracking_id` in `_config.yml`
-
-* To add a profile picture, make sure to give the image tag the class `profile-picture`. In other words,do it like so:
-
-```html
-<img class="profile-picture" src="sherlock.jpg">
-```
-
-**Note:** Customizing the accent color might cause merge conflicts if you later try to merge from `bk2dcradle/researcher` to fetch updates/patches etc. (applicable only if you have forked).
+Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
 
 ### License
 
-[GNU GPL v3](https://github.com/bk2dcradle/researcher/blob/gh-pages/LICENSE)
+GNU General Public License v3.0

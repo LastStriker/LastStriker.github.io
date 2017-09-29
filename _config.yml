@@ -1,21 +1,31 @@
-# Site settings
-title: "On Software Engineering, Mathematics<br>and Philosophy"
-author: "Hugo Sereno Ferreira"
-description: "This is a blog about software, some mathematics, and the occasional philosophy. Not necessarily in that order."
-keywords: "Software Engineering, Mathematics, Philosophy, Scala, Epistemology, Existentialism, Programming, Machine-Learning, Artificial Intelligence, Statistics, Probability, Puzzles"
-biography: "I am a Professor of Software Engineering at the <a href='http://www.fe.up.pt'>Faculty of Engineering</a>, University of Porto and Senior Researcher at <a href='https://www.inesctec.pt'>INESC TEC</a>. Here you can find my <a href='/assets/thesis.pdf'>PhD Thesis</a> and my <a href='/assets/cv.pdf'>Résumé</a>."
-colophon: "© MMXIII — MMXVI by Hugo Sereno Ferreira.<br>Content available under <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons (BY-NC-SA)</a> unless otherwise noted.<br>This site is hosted at <a href='https://pages.github.com/'>Github Pages</a> and created with <a href='http://jekyllrb.com/'>Jekyll</a>."
 
-baseurl: ""
-url: "http://hugosereno.eu"
+title: My Resume
+url: 'http://webjeda.com'
+baseurl: '/online-cv' #change it according to your repository name
 
-twitter_username: ferreira_hugo
-github_username: hugoferreira
-linkedin_username: hugoserenoferreira
-facebook_username: hugo.sereno.ferreira
-google-analytics: UA-69060-5
 
-simple_search: http://google.com/search
-markdown: kramdown
-highlighter: rouge
-permalink: /blog/:year/:month/:day/:title/
+# Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
+#style: styles-2
+#style: styles-3
+#style: styles-4
+#style: styles-5
+#style: styles-6
+
+
+#Profile information
+name: Alan Doe
+tagline: Full Stack Developer
+pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+#sidebar links
+email: hello@webjeda.com
+phone: 012 345 6789
+website: blog.webjeda.com #do not add http://
+linkedin: alandoe
+github: sharu725
+twitter: '@webjeda'
+
+
+# Tracker
+analytics: UA-83979019-1
+#Update all the sections by editing the files inside _includes folder.

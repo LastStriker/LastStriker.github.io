@@ -1,24 +1,27 @@
-# Papyrus - Jekyll Theme
+This theme is designed by Xiaoying Riley at 3rd Wave Media (http://themes.3rdwavemedia.com/). Visit her website for more themes [http://themes.3rdwavemedia.com/](http://themes.3rdwavemedia.com/)
 
-Papyrus is a responsive three-column Jekyll theme with classic styling and careful typographic details.
 
-Loosely based on the [Onelight Atom Theme](https://github.com/atom/one-light-ui).
+I have made this into a Jekyll Theme.
+**Demo:** [http://webjeda.com/online-cv/](http://webjeda.com/online-cv/)
 
-## Install and Test
+The default theme would look like this
 
-1. Download or clone the repo
-  - `git clone git@github.com:hugoferreira/papyrus-theme.git`
-2. Enter the folder
-  - `cd papyrus-theme/`
-3. Start Jekyll server
-  - `jekyll serve --watch`
-4. Access via
-  - http://127.0.0.1:4000/papyrus-theme/
+![online cv Jekyll theme](https://github.com/sharu725/online-cv/raw/master/assets/images/online-cv-jekyll-theme.png)
 
-## Demo
+The theme is responsive
 
-- http://hugosereno.eu
+![online cv responsive Jekyll theme](https://github.com/sharu725/online-cv/raw/master/assets/images/online-cv-responsive-jekyll-theme.png)
 
-## Preview
+There are 6 color schemes available
 
-![Theme preview](/assets/screenshot.png)
+![online cv Jekyll theme](https://github.com/sharu725/online-cv/raw/master/assets/images/online-cv-jekyll-theme-2.png)
+
+## Installation
+* Fork the repository
+* Go to settings and set Github Pages source as master.
+* Your new site should be ready at https://username.github.io/online-cv/
+
+[Watch my video on instlallation](https://www.youtube.com/embed/T2nx6tj-ZH4)
+
+
+Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com)

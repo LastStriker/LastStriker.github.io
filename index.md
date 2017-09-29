@@ -1,3 +1,6 @@
+You can use the [editor on GitHub](https://github.com/LastStriker/LastStriker.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+  
+<img class="profile-picture" src="\image\via_picture_red_background.jpg" >
 
 ##Educational Background
 

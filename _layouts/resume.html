@@ -55,7 +55,7 @@
 
         {% for education in site.data.education %}
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-title" itemprop="name">{{ education.university }} ; {{ education.city }}</h3>
+          <h3 class="resume-item-title" itemprop="name">{{ education.university }} , {{ education.city }}</h3>
           <h4 class="resume-item-details group" itemprop="description">{{ education.degree }}</h4>
 		  <h5 class="resume-item-details award-title" itemprop="description">&bull; {{ education.year }}</h5>
           <!--<p class="resume-item-copy">{{ education.summary }}</p>-->
@@ -115,7 +115,7 @@
 
         {% for recognition in site.data.recognitions %}
         <div class="resume-item">
-          <h4 class="resume-item-details" itemprop="description">{{ recognition.award }} &bull; {{ recognition.organization }}</h4>
+          <h4 class="resume-item-details" itemprop="description">{{ recognition.award }}  {{ recognition.organization }}</h4>
           <h5 class="resume-item-details award-title" itemprop="description"> &bull; {{ recognition.year }}</h5>
           <p class="resume-item-copy">{{ recognition.summary }}</p>
         </div>

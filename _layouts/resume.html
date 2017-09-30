@@ -115,7 +115,7 @@
 
         {% for recognition in site.data.recognitions %}
         <div class="resume-item">
-          <h4 class="resume-item-details" itemprop="description">{{ recognition.award }}  {{ recognition.organization }}</h4>
+          <h4 class="resume-item-details" itemprop="description">{{ recognition.award }} , {{ recognition.organization }}</h4>
           <h5 class="resume-item-details award-title" itemprop="description"> &bull; {{ recognition.year }}</h5>
           <p class="resume-item-copy">{{ recognition.summary }}</p>
         </div>
@@ -130,12 +130,12 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
+          <h2>Computer Skills</h2>
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item">
           <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}</p>
+          <p class="resume-item-copy">{{ skill.item }}</p>
         </div>
         {% endfor %}
 

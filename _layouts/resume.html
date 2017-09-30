@@ -55,9 +55,10 @@
 
         {% for education in site.data.education %}
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
-          <h4 class="resume-item-details group" itemprop="description">{{ education.awards }}</h4>
-          <h5 class="resume-item-details award-title" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h5>
+          <h3 class="resume-item-title" itemprop="name">{{ education.university }}</h3>
+          <h4 class="resume-item-details group" itemprop="description">{{ education.city }}</h4>
+          <h5 class="resume-item-details award-title" itemprop="description">{{ education.degree }}</h5>
+		  <h5 class="resume-item-details award-title" itemprop="description">&bull; {{ education.year }}</h5>
           <!--<p class="resume-item-copy">{{ education.summary }}</p>-->
         </div>
         {% endfor %}
@@ -76,9 +77,8 @@
 
         {% for job in site.data.experience %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ job.position }} </h4>
-		  <h4 class="resume-item-details" itemprop="description"> &bull; {{ job.duration }}</h4>
+          <h4 class="resume-item-details" itemprop="description">{{ job.name }} </h4>
+		  <h5 class="resume-item-details" itemprop="description"> &bull; {{ job.duration }}</h5>
           <p class="resume-item-copy">{{ job.summary }}</p>
         </div><!-- end of resume-item -->
         {% endfor %}
@@ -116,8 +116,8 @@
 
         {% for recognition in site.data.recognitions %}
         <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
-          <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
+          <h3 class="resume-item-title" itemprop="award">{{ recognition.award }} &bull; {{ recognition.organization }}</h3>
+          <h4 class="resume-item-details"> &bull; {{ recognition.year }}</h4>
           <p class="resume-item-copy">{{ recognition.summary }}</p>
         </div>
         {% endfor %}

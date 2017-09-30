@@ -4,12 +4,28 @@
   year: 2015 and 2016
   summary: 
 
-- award: Duff Beer Customer of the year
-  organization:
-  year: 1997 &mdash; 2001, 2003, 2008 &mdash; 2012
-  summary: Honored by <a href="https://en.wikipedia.org/wiki/Duff_Beer">Duff Beer</a> for being an outstanding customer several years straight. Qualifications included most beer consumed at a bar, most beer purchased, and most beer ralphed.
+- award: National Encouragement Scholarship(twice)
+  organization: SYSU
+  year: 2015 and 2017
+  summary:  
 
-- award: Moe's Patron of the Month
-  organization: 
-  year: 12/2001, 8/2004
-  summary: Specifically this prestigious awarded twice for stopping a robber with my belly.
+-award: Yat-sen Encouragement Scholarship
+  organization: SYSU
+  year: 2016
+  summary: 
+
+- award: Second Prize, Software Design Competition
+  organization: SYSU
+  year: Oct, 2016
+  summary:  I teamed up with a classmate, and we designed a small program to predict travel time based on previous data.
+  
+- award: Second Prize, Competition of Transport Science and Technology for Students
+  organization: SYSU
+  year: Mar, 2017
+  summary: I teamed up with four classmates, and we made an Android-based mobile application which used as expressway emergency guidance.  
+
+- award: Honorable Mention, Mathematic Contest In Modeling
+  organization: USA
+  year: Apr, 2017
+  summary: I teamed up with two classmates, and we chose the problem C which required us to work out a model to measure the difference of traffic because of the introduction of self-driving vehicles.
+  

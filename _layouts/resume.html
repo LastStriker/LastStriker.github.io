@@ -55,9 +55,8 @@
 
         {% for education in site.data.education %}
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-title" itemprop="name">{{ education.university }}</h3>
-          <h4 class="resume-item-details group" itemprop="description">{{ education.city }}</h4>
-          <h5 class="resume-item-details award-title" itemprop="description">{{ education.degree }}</h5>
+          <h3 class="resume-item-title" itemprop="name">{{ education.university }} ; {{ education.city }}</h3>
+          <h4 class="resume-item-details group" itemprop="description">{{ education.degree }}</h4>
 		  <h5 class="resume-item-details award-title" itemprop="description">&bull; {{ education.year }}</h5>
           <!--<p class="resume-item-copy">{{ education.summary }}</p>-->
         </div>
@@ -78,7 +77,7 @@
         {% for job in site.data.experience %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h4 class="resume-item-details" itemprop="description">{{ job.name }} </h4>
-		  <h5 class="resume-item-details" itemprop="description"> &bull; {{ job.duration }}</h5>
+		  <h5 class="resume-item-details award-title" itemprop="description"> &bull; {{ job.duration }}</h5>
           <p class="resume-item-copy">{{ job.summary }}</p>
         </div><!-- end of resume-item -->
         {% endfor %}
@@ -116,8 +115,8 @@
 
         {% for recognition in site.data.recognitions %}
         <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
-          <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
+          <h4 class="resume-item-details" itemprop="description">{{ recognition.award }} &bull; {{ recognition.organization }}</h4>
+          <h5 class="resume-item-details award-title" itemprop="description"> &bull; {{ recognition.year }}</h5>
           <p class="resume-item-copy">{{ recognition.summary }}</p>
         </div>
         {% endfor %}

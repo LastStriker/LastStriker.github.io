@@ -3,8 +3,6 @@
 
 # donutfinder.io
 - project: English 
-  first: IELTS &mdash; S 5.5,  L 6.5,  R 7.5,  W 5.5,  Overall 6.5  ':'
-  second: College English Test Band 6 &mdash; 550
-  
+  content: <ul class="resume-item-list"><li>IELTS &mdash; S 5.5,  L 6.5,  R 7.5,  W 5.5,  Overall 6.5</li><li>College English Test Band 6 &mdash; 550</li></ul>
   
 

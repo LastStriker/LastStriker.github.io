@@ -2,25 +2,19 @@
 - award: Third-class Scholarship(twice)
   competition:
   organization: SYSU
-  year: 2014-2015 and 2015-2016
+  year: 2015 and 2016
   summary: 
-  
-- award: Second-class Scholarship
-  competition:
-  organization: SYSU
-  year: 2016-2017
-  summary:
 
 - award: National Encouragement Scholarship(twice)
   competition:
   organization: SYSU
-  year: 2014-2015 and 2016-2017
+  year: 2015 and 2017
   summary:  
 
 - award: Yat-sen Encouragement Scholarship
   competition:
   organization: SYSU
-  year: 2015-2016
+  year: 2016
   summary: 
 
 - award: Second Prize
@@ -40,4 +34,9 @@
   organization: USA
   year: Apr, 2017
   summary: I teamed up with two classmates, and we chose the problem C which required us to work out a model to measure the difference of traffic because of the introduction of self-driving vehicles.
-  
+
+- award: Second-class Scholarship
+  competition:
+  organization: SYSU
+  year: 2017
+  summary:  
